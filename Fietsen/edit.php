@@ -7,7 +7,7 @@
     // SELECT * FROM fietsen WHERE id = 1
 
     // connect database
-    include "fietsen.php";
+    include "connect.php";
 
     // Maak een query
     $sql = " SELECT * FROM fietsen WHERE id = :id";
@@ -36,6 +36,7 @@
 
 <form action="edit_db.php" method="post">
 
+    <input type="hidden" id="merk" name="id" required value="<?php echo $result['id']; ?>"><br>
     <label for="merk">Merk:</label>
     <input type="text" id="merk" name="merk" required value="<?php echo $result['merk']; ?>"><br>
 

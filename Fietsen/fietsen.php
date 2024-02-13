@@ -22,9 +22,9 @@ echo "<table border=1px>";
 if (!empty($result)) {
     // Eerste rij met koprijen
     echo "<tr>";
-    echo "<th>Merk</th>";
-    echo "<th>Type</th>";
-    echo "<th>Prijs</th>";
+    echo "<th>merk</th>";
+    echo "<th>type</th>";
+    echo "<th>prijs</th>";
     echo "<th>id</th>";
     echo "</tr>";
 

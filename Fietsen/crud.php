@@ -46,12 +46,9 @@ if (!empty($result)) {
         echo "<td>" . $row['type'] . "</td> ";
         echo "<td>" . $row['prijs'] . "</td>";
         echo "<td><a href='edit.php?id=" . $row['id'] . "'>Wijzig</a></td>";
-        echo "<td><a href='delete.php?id=" . $row['id'] . "' onclick="return confirm('Weet u zeker dat u deze rij wilt verwijderen?')">Verwijder</a></td>";
+        echo "<td><a href='delete.php?id=" . $row['id'] . "' onclick=\"return confirm('Weet u zeker dat u deze rij wilt verwijderen?')\">Verwijder</a></td>";
         echo "</tr>";
     }
 } else {
     echo "<tr><td colspan='4'>Geen resultaten gevonden</td></tr>";
 }
-
-echo "</table>";
-?>

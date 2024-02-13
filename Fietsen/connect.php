@@ -1,6 +1,3 @@
-</body>
-</html>
----
 <?php
 // Auteur: Mikail
 // Fucntie: connectie maken met de eerste database fietsenmaker
