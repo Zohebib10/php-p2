@@ -7,7 +7,8 @@
     // SELECT * FROM fietsen WHERE id = 1
 
     // connect database
-    include "fietsen.php";
+    include "edit.php
+";
 
     // Maak een query
     $sql = " SELECT * FROM fietsen WHERE id = :id";
