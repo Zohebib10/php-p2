@@ -3,7 +3,7 @@
 // Functie: voeg nieuwe fiets toe
 
 // Connect database
-include "crud.php";
+include "fietsen.php";
 
 // Initialize variables to hold input values
 $merk = $type = $prijs = "";

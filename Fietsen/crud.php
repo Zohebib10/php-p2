@@ -3,7 +3,7 @@
 // Functie: selecteer data
 
 // Connect database
-include "fietsen.php";
+include "select.php";
 
 // Maak een query
 $sql = "SELECT * FROM fietsen";

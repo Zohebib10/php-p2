@@ -1,5 +1,5 @@
 <?php 
-// auteur Mikail Korkut
+// auteur Zoheb Ibrahim
 //Functie: data fiets update in database
 
 // test of er data is gepost

@@ -1,5 +1,5 @@
 <?php
-// Auteur: Mikail Korkut
+// Auteur: Zoheb Ibrahim
 // Functie: verwijder data
 
 // Controleer of de id parameter is ingesteld en geldig is

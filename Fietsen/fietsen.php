@@ -1,9 +1,9 @@
 <?php
-// Auteur: Mikail Korkut
+// Auteur: Zoheb Ibrahim
 // Functie: selecteer data
 
 // connect database
-include "fietsen.php";
+include "crud.php";
 
 // Maak een query
 $sql = "SELECT * FROM fietsen";
